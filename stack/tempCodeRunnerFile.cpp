@@ -1,0 +1,1 @@
+cout<<pop(&p1)<<endl;
