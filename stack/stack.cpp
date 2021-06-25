@@ -24,7 +24,7 @@ int pop(Point *p1){
     int item;
 
     if(p1->top == 0){
-        cout<<"Stack full"<<endl;
+        cout<<"Stack empty"<<endl;
         return -1;
     }else{
         p1->top = p1->top - 1;
